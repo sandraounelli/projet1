@@ -1,0 +1,112 @@
+.navbar a {
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  body {
+    background-color: #f2f2f2;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .title {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .about, .projects {
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #fdfbfb, #ebedee);
+  color: #333;
+  line-height: 1.6;
+  padding: 0;
+}
+
+
+.navbar {
+  background-color: #222;
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+  color: #f39c12;
+  transform: scale(1.1);
+}
+
+
+.title {
+  text-align: center;
+  padding: 60px 20px 20px;
+  font-size: 3em;
+  color: #2c3e50;
+}
+
+
+section {
+  background: white;
+  margin: 30px auto;
+  padding: 30px;
+  max-width: 900px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+}
+
+section:hover {
+  transform: translateY(-5px);
+}
+
+
+section h2 {
+  margin-bottom: 15px;
+  color: #34495e;
+}
+
+
+
+  .title {
+    font-size: 2em;
+  }
+
+  .navbar a {
+    display: block;
+    margin: 10px 0;
+  }
+
+.ktiba{
+    display: inline-block;
+}
