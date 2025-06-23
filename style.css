@@ -108,5 +108,7 @@ section h2 {
   }
 
 .ktiba{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
